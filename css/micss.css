@@ -1,0 +1,76 @@
+
+
+.btn-encuestau {
+  color:  #164085 ;
+  background-color: #00bc8c;
+  border-color: #00bc8c;
+}
+
+.btn-encuestau:hover {
+  color:   #164085 ;
+  background-color: #009670;
+  border-color: #008966;
+}
+
+.btn-encuestau:focus, .btn-encuestau.focus {
+  color:   #164085 ;
+  background-color: #009670;
+  border-color: #008966;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+}
+
+.btn-encuestau.disabled, .btn-encuestau:disabled {
+  color:   #164085 ;
+  background-color: #00bc8c;
+  border-color: #00bc8c;
+}
+
+.btn-encuestau:not(:disabled):not(.disabled):active, .btn-encuestau:not(:disabled):not(.disabled).active,
+.show > .btn-encuestau.dropdown-toggle {
+  color:  #164085;
+  background-color: #008966;
+  border-color: #007c5d;
+}
+
+.btn-encuestau:not(:disabled):not(.disabled):active:focus, .btn-encuestau:not(:disabled):not(.disabled).active:focus,
+.show > .btn-encuestau.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+}
+
+.boton_2{
+    text-decoration: none;
+    padding: 10px;
+    font-family: fantasy;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: green;
+    background-color: rgb(25,100,50);
+  }
+  .boton_2:hover{
+    color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
+  }
+
+  .boton_2:focus, .boton_2.focus {
+  color:   #164085 ;
+  background-color: #009670;
+  border-color: #008966;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(38, 198, 157, 0.5);
+}
+
+.boton_2.disabled, .boton_2:disabled {
+  color:   #164085 ;
+  background-color: #00bc8c;
+  border-color: #00bc8c;
+}
+
+.miniFoto{
+  width: 32px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
