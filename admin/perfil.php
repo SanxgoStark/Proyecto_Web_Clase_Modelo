@@ -9,6 +9,7 @@ include "../class/classBaseDatos.php";
 
 //SI ME ESTAN ENVIANDO EL NOMBRE ,SIGNIFICA QUE ME ESTAN ENVIANDO LOS DATPS
 //actualizacion de datos generales
+
 if (isset($_POST['Nombre'])){
 	$oBD->consulta("UPDATE usuario set Nombre = '".$_POST['Nombre']."',Apellidos='".$_POST['Apellidos']."',Password=password('".$_POST['Password']."') where id=".$_SESSION['Id']);
 
@@ -39,7 +40,7 @@ if (isset($_POST['Nombre'])){
 include "menu.php"; 
 
 
-
+echo'<h3 aling="center">Perfil</h3>';
 
 
 // CONSULTA PARA COONSULTAR DATOS DE USUARIO POR ID O EMAIL

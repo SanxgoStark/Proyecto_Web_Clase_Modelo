@@ -24,13 +24,13 @@
         <a class="nav-link" href="perfil.php">Perfil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.php">Encuestas</a>
+        <a class="nav-link" href="encuestas.php">Encuestas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.php">TipoE</a>
+        <a class="nav-link" href="tipoen.php">TipoE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.php">TipoP</a>
+        <a class="nav-link" href="tipopre.php">TipoP</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../index.php">Cerrar Sesion</a>

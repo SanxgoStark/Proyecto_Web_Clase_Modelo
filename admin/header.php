@@ -29,5 +29,6 @@
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<!-- con el rand se obliga al navegador a consultar de nuevo los recusos sin accesar al cache -->
 	<link rel="stylesheet" href="../css/micss.css?v=1.1">
+	
 </head>
 <body>
